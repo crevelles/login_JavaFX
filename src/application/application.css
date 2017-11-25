@@ -1,0 +1,15 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+
+
+.anchor{
+ -fx-background-color:linear-gradient(#86D5D3, #6573B0);
+}
+
+.borde{
+	-fx-background-color:white;
+	-fx-background-radius:36px 36px 36px 36px;
+}
+
+.colorBoton{
+	-fx-background-color: #c25ac7;
+}

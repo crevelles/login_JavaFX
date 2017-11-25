@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.*?>
+<?import java.lang.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXPasswordField?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane minHeight="390.0" minWidth="650.0" styleClass="anchor" stylesheets="@application.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.SampleController">
+   <children>
+      <BorderPane layoutX="41.0" layoutY="44.0" prefHeight="301.0" prefWidth="564.0" styleClass="borde" stylesheets="@application.css" AnchorPane.bottomAnchor="45.0" AnchorPane.leftAnchor="41.0" AnchorPane.rightAnchor="45.0" AnchorPane.topAnchor="44.0">
+         <top>
+            <Text fill="#2724d3" strokeType="OUTSIDE" strokeWidth="0.0" text="Sign in" BorderPane.alignment="CENTER">
+               <font>
+                  <Font size="34.0" />
+               </font>
+               <BorderPane.margin>
+                  <Insets top="20.0" />
+               </BorderPane.margin>
+            </Text>
+         </top>
+         <center>
+            <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0" BorderPane.alignment="CENTER">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <BorderPane.margin>
+                  <Insets top="40.0" />
+               </BorderPane.margin>
+               <children>
+                  <JFXTextField labelFloat="true" prefWidth="367.0" promptText="Username">
+                     <font>
+                        <Font name="Leelawadee" size="12.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets left="100.0" right="100.0" top="20.0" />
+                     </VBox.margin>
+                  </JFXTextField>
+                  <JFXPasswordField labelFloat="true" promptText="Password">
+                     <VBox.margin>
+                        <Insets left="100.0" right="100.0" top="20.0" />
+                     </VBox.margin>
+                  </JFXPasswordField>
+                  <JFXButton alignment="CENTER" prefHeight="25.0" prefWidth="369.0" ripplerFill="#2353d7" styleClass="colorBoton" stylesheets="@application.css" text="GET STARTED" textFill="#f5efef">
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                     <VBox.margin>
+                        <Insets bottom="50.0" top="50.0" />
+                     </VBox.margin>
+                  </JFXButton>
+               </children>
+            </VBox>
+         </center>
+      </BorderPane>
+   </children>
+</AnchorPane>
